@@ -1,0 +1,3 @@
+mvn test -Dcucumber.options="src/test/resources/Features/login.feature"
+
+mvn test -Dcucumber.filter.tags="@negative_test"
